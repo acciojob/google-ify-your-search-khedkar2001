@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Google Clone</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <!-- Navigation bar using <nav> -->
+    <nav>
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" />
+      <button class="sign_in">Sign in</button>
+    </nav>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+    <!-- Main content -->
+    <main>
+      <input type="text" class="search_bar" placeholder="Search Google or type a URL" />
+      <input type="submit" value="Google Search" />
+    </main>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">Google</div>
-    <button class="sign-in">Sign in</button>
-  </header>
+    <!-- Footer -->
+    <footer>
+      <div class="l_ftr">
+        <span>India</span>
+      </div>
+      <div class="r_ftr">
+        <a href="https://policies.google.com/privacy" target="_blank">Privacy</a>
+      </div>
+    </footer>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <input type="text" class="search-bar" placeholder="Search Google or type a URL" />
-    <button class="search-button">Google Search</button>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="left-footer">
-      <span>India</span>
-      <a href="https://policies.google.com/privacy" target="_blank">Privacy</a>
-    </div>
-    <div class="right-footer">
-      <!-- Add optional links here -->
-    </div>
-  </footer>
-
-  <!-- JS -->
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
